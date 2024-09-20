@@ -1,0 +1,20 @@
+.project__container{
+
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1.875;
+}
+
+.project__item{
+
+    text-align: center;
+    padding: 1.875;
+    border-radius: var(--border-radius);
+    background-color: var(--container-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.project__item:hover{
+    transform: translateY(-10px);
+}
+
+

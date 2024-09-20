@@ -1,6 +1,6 @@
 import React from 'react'
 import "./about.css";
-// import image from "../assets/img.svg";
+import image from "../../assets/profile.jpg";
 
 const About = () => {
   return (
@@ -16,8 +16,10 @@ const About = () => {
 
     <div className="about__info">
 
-        <p className="about__decription">My input of description</p>
-        <a href="" className="btn">Download CV</a>
+        <p className="about__decription">I'm a passionate Full Stack Developer with expertise in both front-end and back-end technologies. With a strong foundation in JavaScript, React, Node.js, and databases like PostgreSQL, I thrive on building dynamic, user-friendly applications that solve real-world problems. My approach combines creative problem-solving with a keen eye for detail, ensuring that every project I undertake is not only functional but also visually appealing.
+
+I love collaborating with cross-functional teams to deliver high-quality products, and I'm always eager to learn new technologies and improve my skills. Outside of coding, you can find me exploring the latest tech trends, contributing to open-source projects, or enjoying outdoor adventures. Let's connect and create something amazing together!</p>
+        {/* <a href="" className="btn">Download CV</a> */}
     </div>
 
     <div className="about__skills grid">
@@ -26,7 +28,7 @@ const About = () => {
             <div className="skills__titles">
 
                 <h3 className="skills__name">Development</h3>
-                <span className="skills__number ">80%</span>
+                <span className="skills__number ">65%</span>
             </div>
 
             <div className="skills__bar">
@@ -38,7 +40,7 @@ const About = () => {
             <div className="skills__titles">
 
                 <h3 className="skills__name">Database</h3>
-                <span className="skills__number">70%</span>
+                <span className="skills__number">60%</span>
             </div>
 
             <div className="skills__bar">
@@ -50,7 +52,7 @@ const About = () => {
             <div className="skills__titles">
 
                 <h3 className="skills__name">UI/Design</h3>
-                <span className="skills__number">90%</span>
+                <span className="skills__number">70%</span>
             </div>
 
             <div className="skills__bar">

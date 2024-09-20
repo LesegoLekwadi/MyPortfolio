@@ -157,16 +157,16 @@ margin-bottom: 3.7rem;
 
 }
 
-.section__title::before{
-  content:'';
-  background: url();
+.section__title::before {
+  content: '';
+  /* background: url(''); Provide a valid image path */
   height: 2.25rem;
-  width: 2.25;
-  position:absolute;
-  left:-0.875rem;
-  top:-0.875rem
-
+  width: 2.25rem; /* Add 'rem' for units */
+  position: absolute;
+  left: -0.875rem;
+  top: -0.875rem;
 }
+
 
 
 .btn{

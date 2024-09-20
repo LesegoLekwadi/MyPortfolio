@@ -8,7 +8,7 @@
 }
 
 .intro{
-    max-width: 540px;
+    max-width: 8083px;
     text-align: center;
 
 }
@@ -85,14 +85,4 @@
     }
 }
 
-.Wheel{
-    background-color: var(--titles-color);
-    border-radius:100%;
-    width: 0.25rem;
-    height: 0.25rem;
-    position: absolute;
-    top:0,5rem;
-    left:50%;
-    transform: translateX(-50%);
-    animation:ani-mouse 2s linear infinite
-}
+

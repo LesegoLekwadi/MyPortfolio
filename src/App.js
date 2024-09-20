@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import Home from './components/home/Home';
@@ -13,14 +12,14 @@ function App() {
     <>
     <Sidebar />
     <main className='main'>
-      <Home />
+      {/* <Home /> */}
       <About />
       <Projects />
       <Skills />
       <Experience />
       <Contact />
       <footer>
-        <p>�� 2023 My Portfolio</p>
+        <p> My Portfolio</p>
       </footer>
 
 
